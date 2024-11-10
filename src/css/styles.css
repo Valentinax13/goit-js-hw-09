@@ -16,3 +16,26 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+      body { 
+        font-family: Arial, sans-serif; margin: 0; padding: 0; 
+      } 
+      .nav-container { 
+        width: 100%; 
+        display: flex; 
+        justify-content: flex-end; 
+        background-color: #f4f4f4; 
+        padding: 10px; 
+        position: absolute; 
+        top: 0; 
+        right: 0;
+       } 
+      .nav-container a { 
+        margin-left: 20px; 
+        text-decoration: none; 
+        color: #007bff; 
+        font-weight: bold; } 
+      .nav-container a:hover { 
+        color: #0056b3; 
+      } 
+ 
